@@ -22,13 +22,13 @@ An addition, any paste action will cause warning about harm of copy-paste: <br/>
 
 ## Implementation details:
 
-Copy-Paste Message:
+### Copy-Paste Message:
 
 Alert is presented by IntelliJ API
 
 Paste event is detected by extending ```CopyPastePreProcessor``` extension point
 
-AST representation of code block:
+### AST representation of code block:
 
 AST is represented upsing PSI.
 IntelliJ SDK provides selected code block bounds and AST nodes associated with them. Then bounding elements LCA will be found.
