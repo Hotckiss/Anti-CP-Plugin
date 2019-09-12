@@ -34,6 +34,6 @@ AST is represented upsing PSI.
 IntelliJ SDK provides selected code block bounds and AST nodes associated with them. Then bounding elements LCA will be found.
 
 After that AST will be represented using traversal: 
-1) Output root element on depth ```k```
+1) Output root element on depth ```k``` (and return if bounding elements are equal)
 2) Find root childs (```u```, ```v```) corresponding to bounding nodes
-3) Represent all subtrees between ```u``` and ```v``` recursively on depth ```k+1```: for subtree ```u``` bounding elements will be ```u``` and rightmost node, for subtree ```v``` - leftmost node and ```v```, for subtrees between u and v - their leftmost and rightmost nodes
+3) Represent all subtrees between ```u``` and ```v``` recursively on depth ```k+1```: for subtree ```u``` bounding nodes will be ```u``` and rightmost node, for subtree ```v``` - leftmost node and ```v```, for subtrees between u and v - their leftmost and rightmost nodes
