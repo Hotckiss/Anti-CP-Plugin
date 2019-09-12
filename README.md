@@ -12,8 +12,10 @@ To display AST of code block, follow these steps:
 1) Select a code block you want to display
 2) Press ![](icn.png) button in toolbar
 
-Result:
+Result: <br/>
+
 ![](icn2.png)
 
-An addition, any paste action will cause warning about harm of copy-paste:
+An addition, any paste action will cause warning about harm of copy-paste: <br/>
+
 ![](icn3.png)
