@@ -1,5 +1,5 @@
 # Anti-CP-Plugin
-This plugin provides visual representation of Abstract Syntax Tree (AST) 
+This plugin provides visual representation of Abstract Syntax Tree (AST) and reminds user not to use copy-paste very often
 
 # Usage
 
