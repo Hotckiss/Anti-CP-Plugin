@@ -10,4 +10,4 @@ To start plugin, simply run this command from project directory:
 To display AST of code block, follow these steps:
 
 1) Select a code block you want to display
-2) Press ![](ich.png) button in toolbar
+2) Press ![](icn.png) button in toolbar
