@@ -26,7 +26,7 @@ Copy-Paste Message:
 
 Alert is presented by IntelliJ API
 
-Paste event is detected by extending of ```CopyPastePreProcessor``` extension point
+Paste event is detected by extending ```CopyPastePreProcessor``` extension point
 
 AST representation of code block:
 
