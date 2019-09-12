@@ -19,3 +19,21 @@ Result: <br/>
 An addition, any paste action will cause warning about harm of copy-paste: <br/>
 
 ![](icn3.png)
+
+## Implementation details:
+
+Copy-Paste Message:
+
+Alert is presented by IntelliJ API
+
+Paste event is detected by extension of ```CopyPastePreProcessor``` interface
+
+AST representation of code block:
+
+AST is represented upsing PSI.
+IntelliJ SDK provides selected code block bounds and AST nodes associated with them. Then bounding elements LCA will be found.
+
+After that AST will be represented using traversal: 
+1) Output root element on depth ```k```
+2) Find root childs (```u```, ```v```) corresponding to bounding nodes
+3) Represent all subtrees between ```u``` and ```v``` recursively on depth ```k+1```
